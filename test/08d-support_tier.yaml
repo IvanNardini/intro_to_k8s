@@ -16,7 +16,7 @@ spec:
         app: microservices
         tier: support
     spec:
-        containers:
+      containers:
         - name: counter
           image: lrakai/microservices:counter-v1
           env:
